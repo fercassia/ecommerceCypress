@@ -1,0 +1,30 @@
+{
+  "name": "Automação de testes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "cy": "cypress run",
+    "test": "npm run scripts",
+    "scripts": "cypress run --browser electron --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "cypress-multi-reporters": "^1.6.1",
+    "junit-report-merger": "^3.0.5",
+    "mocha": "^9.2.1",
+    "mocha-junit-reporter": "^2.0.2",
+    "mochawesome": "^7.1.0",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.1.0",
+    "test-results-reporter": "^1.0.10",
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "faker": "^5.4.0",
+    "faker-br": "^0.4.1",
+    "cypress-xpath": "^1.6.0"
+  }
+}
