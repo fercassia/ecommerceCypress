@@ -2,6 +2,8 @@ const { defineConfig } = require("cypress");
 const { beforeRunHook, afterRunHook } = require('cypress-mochawesome-reporter/lib');
 
 module.exports = defineConfig({
+  viewportHeight: 720,
+  viewportWidth: 1366,
   defaultCommandTimeout: 30000,
   reporter: 'cypress-multi-reporters',
   "reporterOptions": {
@@ -24,7 +26,7 @@ module.exports = defineConfig({
 
 
   e2e: {
-    baseUrl: "",
+    baseUrl: "https://www.kabum.com.br/",
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on)
       on('before:run', async (details) => {
@@ -37,7 +39,6 @@ module.exports = defineConfig({
         await afterRunHook();
       });
       
-      return require('./cypress/plugins/index.js')(on, config)
     },
   },
 });
