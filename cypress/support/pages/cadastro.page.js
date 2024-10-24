@@ -14,7 +14,7 @@ const elements = {
     continueButton: '[data-testid="button-form-continue"]',
     pesquisaField: '#SelectBox',
     pesquisaComboBox: '#SelectBox > div:nth-child(3) > span:nth-child(3)',
-    adicionarEnderecoText: '.sc-lgjHQU.eijCFx',
+    adicionarEnderecoText: "button[data-testid='sms-method-button'] > span:nth-child(2)",
     cepEnderecoField: '[data-testid="zipcode-input"]',
     identificacaoEnderecoField: '[data-testid="address-identification-input"]',
     numeroEnderecoField: '[data-testid="address-number-input"]',
