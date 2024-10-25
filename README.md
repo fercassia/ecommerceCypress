@@ -42,4 +42,11 @@ Após abrir o dasboard, para rodar os testes.
 
 -Faker: Biblioteca para geração de massa de dados: https://www.npmjs.com/package/faker
 
+### História de usuario
+
+ - Foi criado uma issue, para comportar a US - > https://github.com/MateusNeres26/ecommerceCypress/issues/1
+ - Foi criado um projeto, para simular Scrumban -> https://github.com/users/MateusNeres26/projects/1
+ - Acesso ao workflows - > https://github.com/MateusNeres26/ecommerceCypress/actions
+
+
 
