@@ -5,11 +5,11 @@
 
 ### Pré-requisito:
 
--Node.js - Você encontra em: https://nodejs.org/en/
+- Node.js - Você encontra em: https://nodejs.org/en/
 
--Visual Studio Code ou qualquer editor de texto - você encontra em: https://code.visualstudio.com/download
+- Visual Studio Code ou qualquer editor de texto - você encontra em: https://code.visualstudio.com/download
 
--Git: você encontra em: https://git-scm.com/downloads
+- Git: você encontra em: https://git-scm.com/downloads
 
 
 Via terminal, rode os seguintes comandos:
@@ -38,9 +38,9 @@ Após abrir o dasboard, para rodar os testes.
 
 
 ### Bibliotecas de apoio:
--Cypress: Framework de automação: https://cypress.io/
+- Cypress: Framework de automação: https://cypress.io/
 
--Faker: Biblioteca para geração de massa de dados: https://www.npmjs.com/package/faker
+- Faker: Biblioteca para geração de massa de dados: https://www.npmjs.com/package/faker
 
 ### História de usuario
 
