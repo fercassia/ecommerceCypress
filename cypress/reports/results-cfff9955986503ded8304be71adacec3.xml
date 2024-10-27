@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.929" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-10-25T18:05:44" tests="0" file="cypress\e2e\telaCadastro.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cadastro de cliente" timestamp="2024-10-25T18:05:44" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="principal" timestamp="2024-10-25T18:05:44" tests="1" time="22.918" failures="0">
+    <testcase name="Cadastro de cliente principal Fluxo de cadastro cliente com sucesso! " time="22.734" classname="Fluxo de cadastro cliente com sucesso! ">
+    </testcase>
+  </testsuite>
+</testsuites>
